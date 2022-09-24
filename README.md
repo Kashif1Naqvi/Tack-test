@@ -10,17 +10,17 @@ Both projects i add into one git repository
 
 we disscuss firstly core backend task:
 
-cd backend/
+```cd backend/```
 
 then activate the envoirment variable
 
 for linux
 
-source env/bin/active
+```source env/bin/active````
 
 then run the server
 
-python3 manage.py runserver
+```python3 manage.py runserver```
 
 
 then you to your desired browser: open url -> http://127.0.0.1:8000/
@@ -34,18 +34,18 @@ if you check filter_by_min_roi open url -> http://127.0.0.1:8000/filter_by_min_r
 run the test 
 
 
-python manage.py test app.tests.BackendTest.daily_performance
-python manage.py test app.tests.BackendTest.filter_by_min_roi
+```python manage.py test app.tests.BackendTest.daily_performance```
+```python manage.py test app.tests.BackendTest.filter_by_min_roi```
 
 
 deactivate the envoirment actiable by typeing 
- deactivate 
+ ```deactivate ```
 
 --------------------------------------------------------------------Full stack---------------------------
 
-cd ../  #back one step 
+```cd ../  #back one step ```
 
-cd fullstack-test/
+```cd fullstack-test/```
 
 there are two folders for frontend and backend
 
@@ -55,15 +55,15 @@ backend on python django django rest framework
 run the backend server first then frontend server
 
 
-cd backend/
+```cd backend/```
 
 active the envoirment
 
-source env/bin/activate
+```source env/bin/activate```
 
 run the server
 
-python manage.py runserver
+```python manage.py runserver```
 
 
 if you want to run the tests
@@ -75,23 +75,23 @@ python manage.py test users.tests.RegisterViewTest.check_user_exist
 
 
 deactivate the envoirment actiable by typeing 
- deactivate 
+ ```deactivate```
 
 
 
 
 so we move to frontend 
 
-cd ../  #back one step 
+```cd ../  #back one step ```
 
 
 type
 
-cd frontend/frontend-app/
+```cd frontend/frontend-app/```
 then type
 
 
-npm start
+```npm start```
 
 open this url -> http://localhost:3000
  show you login screen you login using if you have not a account please register the user and try to login again
